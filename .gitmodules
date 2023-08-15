@@ -1,0 +1,6 @@
+[submodule "themes/hugo-initio"]
+	path = themes/hugo-initio
+	url = https://github.com/miguelsimoni/hugo-initio
+[submodule "themes/xmin"]
+	path = themes/xmin
+	url = https://github.com/yihui/hugo-xmin
