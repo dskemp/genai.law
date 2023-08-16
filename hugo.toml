@@ -1,13 +1,14 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Generative AI: A Guide for Lawyers and Law Students'
+title = 'genAI.law: A Guide for Lawyers and Law Students'
 theme = 'hugo-initio'
 
 [params]
-    name = "Generative AI"
-    description = "A guide for lawyers and law students"
-    phone = ""
-    address = "584 Castro St #207, San Francisco, CA 94114"
+    name = "genAI.law"
+    description = "A practical guide to using generative AI in law"
+    phone = "555-555-5555"
+    email = "hello@genai.law"
+    address = "123 Washington St., Newark, NJ 07102"
     year = 2023
     avatar = "images/icon.png"
     avatarclass = "circle"
@@ -20,20 +21,20 @@ theme = 'hugo-initio'
     showSubheader = true
     showServices = true
     showRecentWorks = true
-    showDownloads = true
-    showClients = true
+    showDownloads = false
+    showClients = false
 
     showFooterContact = true
     showFooterFollowMe = true
     showFooterTextWidget = true
-    showFooterFormWidget = true
+    showFooterText2Widget = true
 
 [[menu.main]]
     name = "home"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "blog"
+    name = "guides"
     url = "/post/"
     weight = 5
 
